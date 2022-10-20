@@ -37,9 +37,10 @@ body
     background: white;
 }
 
-header h1, footer h2
+.text
 {
     font-family: 'Roboto', sans-serif;
+    
 }
 
 header h1 
@@ -49,13 +50,22 @@ header h1
 }
 
 
-footer h2
+footer h2, span, a
 {  
     color: black;
-    font-size: 190%;
     position: relative;
     bottom: 30pt;
     
+    
+}
+
+footer h2, span
+{
+    margin-left: 15pt;
+}
+
+footer span, a{
+    font-size: 11pt;
     
 }
 
@@ -63,5 +73,6 @@ footer section
 {
     width: 202.5pt;
     height: 190.5pt;
-    text-align: center;
+    text-align: left, center;
+    
 }
