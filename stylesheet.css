@@ -1,0 +1,67 @@
+header, footer
+{
+    
+    width: 637.5pt;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header
+{
+    height: 337.5pt;
+    background-image: url(galaxy.jpg);
+    margin-bottom: 15pt;
+    
+}
+
+footer
+{
+    height: 243pt;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15pt;
+    background: #E6E6E5;
+    column-gap: 15pt;
+    
+}
+
+
+body
+{
+    
+    background: white;
+}
+
+header h1, footer h2
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 
+{
+    color: white;
+    font-size: 500%
+}
+
+
+footer h2
+{  
+    color: black;
+    font-size: 190%;
+    position: relative;
+    bottom: 30pt;
+    
+    
+}
+
+footer section
+{
+    width: 202.5pt;
+    height: 190.5pt;
+    text-align: center;
+}
