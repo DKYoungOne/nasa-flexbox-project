@@ -59,10 +59,11 @@ footer h2, span, a
     
 }
 
-footer label, input{
+footer label, input, #message{
     position: relative;
     bottom: 40pt;
     margin-left: 15pt;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -94,23 +95,19 @@ footer section
     color: white;
     font-size: 12pt;
     font-weight: bolder;
+    cursor: pointer;
     
 }
 
 #message
 {
     
-        width: 80%;
-        height: 115px;
-        
-        box-sizing: border-box;
-        
-        border-radius: 4px;
-        background-color: #ffffff;
-        font-size: 16px;
-        resize: none;
-        
-      
+    width: 80%;
+    height: 115px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
 }
 
 #name, #message
